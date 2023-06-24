@@ -1,0 +1,96 @@
+* {
+    background-color: rgb(235, 220, 3);
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.sub-title,
+.title,
+.buttons,
+.results,
+.game-result {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-size: 50px;
+    color:#000000;
+    padding: 50px;
+}
+
+.sub-title { 
+    font-size: 20px;
+    color:#ffffff;
+    padding: 10px;
+}
+
+.buttons {
+    align-content: center;
+    gap: 40px;
+    padding: 30px;
+}
+
+.button {
+    background-color: rgb(235, 220, 3);
+    border: 3px solid #ffffff;
+    color: #ffffff;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 24px;
+    width: 150px;
+    padding: 15px;
+}
+
+.button:hover {
+    opacity: 1;
+    background-color: rgb(255, 255, 255);
+    border: 3px #ffffff solid;
+    color:#000000
+}
+
+.button:active {
+    background-color: #000000;
+    border: 3px #000000 solid;
+    color:#ffffff
+}
+
+.results{
+    flex-direction: row;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.game-result {
+    padding: 30px;
+    font-size: 20px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+    color:#000000;
+    font-size: 20px;
+}
+
+.fa-github {
+    color:#000000;
+    font-size: 30px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+.fa-github:hover {
+    transform: rotate(360deg) scale(1.5);
+  }
